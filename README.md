@@ -8,7 +8,7 @@ This script installs useful tools for software development on windows such as Gi
 
 Hit the command:
 
-```
+```ps1
 iwr -useb git.io/setup.ps1 | iex
 ```
 
