@@ -7,3 +7,4 @@ scoop install rustup
 scoop install python27 python
 scoop install nodejs
 scoop install deno
+scoop install gcc
