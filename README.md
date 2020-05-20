@@ -21,7 +21,6 @@ This command installs the following tools.
 - Firefox
 - Node.js
 - [Deno](https://deno.land)
-- gcc
 
 # License
 
