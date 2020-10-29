@@ -3,17 +3,19 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 # install visual studio 2019
 choco install -y visualstudio2019community
+choco install -y visualstudio2019buildtools
 
 # install rustup
 choco install -y rustup.install
 
 # install git
-choco install git.install
+choco install -y git.install
 
-# install scoop
-iwr -useb get.scoop.sh | iex
-scoop bucket add extras
-scoop bucket add versions
-scoop install firefox
-scoop install python27 python
-scoop install nodejs
+# install python 2
+choco install -y python2
+
+# install nodejs
+choco install -y nodejs
+
+# install google chrome
+choco install -y googlechrome
