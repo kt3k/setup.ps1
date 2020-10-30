@@ -4,6 +4,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 # install visual studio 2019
 choco install -y visualstudio2019community
 choco install -y visualstudio2019buildtools
+choco install -y visualstudio2019-workload-manageddesktop
 
 # install rustup
 choco install -y rustup.install
