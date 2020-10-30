@@ -14,14 +14,19 @@ iwr -useb git.io/setup.ps1 | iex
 
 This command installs the following tools.
 
-- [Scoop](https://scoop.sh/)
+- [Chocolatey](https://chocolatey.org/)
+- Visual Studio 2019 Community Edition with Build Tools extension
 - Git
 - Python 2.7
 - [Rustup](https://rustup.rs/)
-- Firefox
+- Google Chrome
 - Node.js
-- [Deno](https://deno.land)
-- GCC
+
+# Start [Deno](https://deno.land/) development
+
+```ps1
+iwr -useb https://raw.githubusercontent.com/kt3k/setup.ps1/master/setup-deno-dev.ps1 | iex
+```
 
 # License
 
