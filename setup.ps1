@@ -13,11 +13,14 @@ choco install -y rustup.install
 # install git
 choco install -y git.install
 
-# install python 2
-choco install -y python2
-
 # install nodejs
 choco install -y nodejs
+
+# install deno
+choco install -y deno
+
+# install vim
+choco install -y vim
 
 # install google chrome
 choco install -y googlechrome
