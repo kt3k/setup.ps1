@@ -25,7 +25,7 @@ This command installs the following tools.
 # Start [Deno](https://deno.land/) development
 
 ```ps1
-iwr -useb https://raw.githubusercontent.com/kt3k/setup.ps1/master/setup-deno-dev.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/kt3k/setup.ps1/main/setup-deno-dev.ps1 | iex
 ```
 
 # License
