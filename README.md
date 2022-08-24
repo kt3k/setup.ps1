@@ -9,7 +9,7 @@ This script installs useful tools for software development on windows such as Gi
 Hit the command:
 
 ```ps1
-iwr -useb git.io/setup.ps1 | iex
+irm git.io/setup.ps1 | iex
 ```
 
 This command installs the following tools.
@@ -25,7 +25,7 @@ This command installs the following tools.
 # Start [Deno](https://deno.land/) development
 
 ```ps1
-iwr -useb https://raw.githubusercontent.com/kt3k/setup.ps1/main/setup-deno-dev.ps1 | iex
+irm https://raw.githubusercontent.com/kt3k/setup.ps1/main/setup-deno-dev.ps1 | iex
 ```
 
 # License
